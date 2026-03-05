@@ -1,0 +1,48 @@
+.splat
+{
+    position: absolute;
+    /* La position de départ: en bas, au centre  */
+    top: 500px;
+    left: 100px;
+    /* Agrandir 4 fois l'image  */
+    transform: scale(4); 
+    /* Définir les propriétés CSS à animer. Toutes en 1 seconde */
+
+    transition: top 1s,left 1s,transform 1s; 
+}
+
+.titre {
+    color: red;
+    text-align: center;
+}
+
+#cadre 
+{   
+    width: 500px;
+    height: 500px;
+    /*margin :100px; */
+
+    border-style: inset;
+
+}
+
+#score {
+       
+    width: 500px;
+    height: 500px;
+    border-style: inset;
+}
+
+body
+{
+	margin: 10px;
+}
+
+#tux
+{
+	position: absolute;
+    margin: 0;         /* Pour éviter que des marges ne faussent le calcul */
+    transition: top .3s, left .3s;  /* Pour avoir des déplacemetn plus fluide */
+	top: 100px;
+	left: 100px;
+}
