@@ -14,7 +14,7 @@ Un jeu Web interactif développé en JavaScript pur pour manipuler le DOM et gé
 
 ## Jouer dès maintenant 
 Vous pouvez jouer directement en ligne ici : 
-[Lien vers ta page GitHub Pages si activée]
+https://anass508.github.io/Jeu-Pingouin-JS/
 
 ##  Objectif
 Ce projet m'a permis d'approfondir :
